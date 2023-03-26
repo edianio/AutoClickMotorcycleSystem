@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "ClickEF",
+  "version": "1.0",
+
+  "description": "click! click!",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.honda.com.br/vendas/pages/cotaReposicao/*"],
+      "js": ["click.js"]
+    }
+  ]
+
+}
